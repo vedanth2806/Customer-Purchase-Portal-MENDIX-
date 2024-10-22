@@ -5,6 +5,8 @@ This app is basically on customer purchase portal here i have made three kinds o
 1.Admin
 2.Customer
 3.Customer without login
+4.Shop Owner
+5.Delivery
 
 Admin
 1. Should be able to create product with the properties namely product name, price, description, product image.
@@ -27,7 +29,7 @@ Customer without Login
 2. On clicking any of the product, a pop shouod be displayed to sign-up.
 3. Once after sign-up the customer can proceed to purchase.
 
-ShopOwner
+Shop Owner
 
   1.Owner can view the orders placed by the customers.
   
