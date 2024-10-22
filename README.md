@@ -26,3 +26,13 @@ Customer without Login
 1. View the product details.
 2. On clicking any of the product, a pop shouod be displayed to sign-up.
 3. Once after sign-up the customer can proceed to purchase.
+
+ShopOwner
+1.Owner can view the orders placed by the customers.
+2.Owner can confirm the orders by checking the availability of the products ordered and make it ready for the delivery.
+3.Owner can view all payments done.
+4.Owner can get all details of the products, payments.
+
+Delivery
+1.The delivery interface shows orders that are ready for delivery.
+2.Once after the items are delivered he/she can update the status.
