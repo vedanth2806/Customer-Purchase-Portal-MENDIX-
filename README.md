@@ -1,47 +1,81 @@
-# Mendix
-This is an app i have developed using mendix
+# Mendix Customer Purchase Portal
 
-This app is basically on customer purchase portal here i have made three kinds of users:
-1.Admin
-2.Customer
-3.Customer without login
-4.Shop Owner
-5.Delivery
+## Project Overview
 
-Admin
-1. Should be able to create product with the properties namely product name, price, description, product image.
-2. Admin should be able to view/create/delete a product.
-3. Admin can import bulk products through excell sheet using Excell importer.
-4. Admin can view customer details and their payment history.
-5. Download the product details, payment details in the form of excell using Excell exporter marketplace module.
+This is a comprehensive customer purchase portal developed using Mendix platform. The application facilitates online shopping with multiple user roles and complete order management system from product browsing to delivery tracking.
 
-Customer with login
-1. Sign-up should be done.(register the details like name, email, phone number, username and password)
-2. View the product details.
-3. Adding the products in cart.
-4. Calculate the price of the products in cart(Total number of products, sum of the product price).
-5. Enter the payment details(card holder name, card number, cvv) and proceed to pay.
-6. Once after the payment is successfull a invoice pdf shoould be given to the customer for download.
-7. Each customer should have their payment history.
+## User Roles
+
+The application supports 5 different types of users:
+1. **Admin**
+2. **Customer (with login)**
+3. **Customer (without login)**
+4. **Shop Owner**
+5. **Delivery**
+
+## Features by User Role
+
+### 👑 Admin
+- **Product Management**: Create products with properties (name, price, description, product image)
+- **CRUD Operations**: View, create, and delete products
+- **Bulk Import**: Import multiple products through Excel sheet using Excel importer
+- **Customer Analytics**: View customer details and their payment history
+- **Data Export**: Download product details and payment details in Excel format using Excel exporter marketplace module
+
+### 👤 Customer (with login)
+- **User Registration**: Sign-up with details (name, email, phone number, username, password)
+- **Product Browsing**: View detailed product information
+- **Shopping Cart**: Add products to cart with quantity management
+- **Price Calculation**: Automatic calculation of total products and sum of product prices in cart
+- **Payment Processing**: Enter payment details (card holder name, card number, CVV) and process payment
+- **Invoice Generation**: Download PDF invoice after successful payment
+- **Payment History**: Access to personal payment transaction history
+
+### 🛒 Customer (without login)
+- **Product Browsing**: View product details without registration
+- **Registration Prompt**: Pop-up display for sign-up when attempting to purchase
+- **Seamless Transition**: Proceed to purchase after completing sign-up
+
+### 🏪 Shop Owner
+- **Order Management**: View all orders placed by customers
+- **Order Confirmation**: Confirm orders by checking product availability and prepare for delivery
+- **Payment Oversight**: View all payment transactions
+- **Comprehensive Reports**: Access detailed information on products and payments
+- **Bulk Import**: Import multiple products through Excel sheet using Excel importer
+
+### 🚚 Delivery
+- **Delivery Queue**: View orders ready for delivery
+- **Status Updates**: Update delivery status once items are delivered
+- **Order Tracking**: Monitor delivery progress and completion
+
+## Technologies Used
+- **Platform**: Mendix Low-Code Platform
+- **Modules**: 
+  - Excel Importer (Marketplace Module)
+  - Excel Exporter (Marketplace Module)
+  - PDF Generation
+- **Database**: Mendix Built-in Database
+- **Authentication**: Mendix User Management
+
+## Key Functionalities
+- Multi-role user management system
+- Complete e-commerce workflow
+- Real-time order tracking
+- Automated invoice generation
+- Bulk data import/export capabilities
+- Secure payment processing
+- Comprehensive reporting system
+
+## Installation & Setup
+1. Import the Mendix project file (.mpk)
+2. Configure marketplace modules (Excel Importer, Excel Exporter)
+3. Set up user roles and security
+4. Configure payment gateway integration
+5. Deploy to Mendix Cloud or on-premises
 
 
-Customer without Login 
-1. View the product details.
-2. On clicking any of the product, a pop shouod be displayed to sign-up.
-3. Once after sign-up the customer can proceed to purchase.
 
-Shop Owner
-1. Owner can view the orders placed by the customers.
-2. Owner can confirm the orders by checking the availability of the products ordered and make it ready for the delivery.
-3. Owner can view all payments done. 
-4. Owner can get all details of the products, payments.
-5. Owner can import bulk products through excell sheet using Excell importer.
-
-Delivery
-1. The delivery interface shows orders that are ready for delivery.
-2. Once after the items are delivered he/she can update the status.
-
-A small tour: https://youtu.be/nA95TN49v1I
+## A small tour: https://youtu.be/nA95TN49v1I
 
 **SNAPSHOTS**
 
